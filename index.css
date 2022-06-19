@@ -1,0 +1,249 @@
+#main{
+    width: 90%;
+    /* border:1px solid blueviolet; */
+    display: flex;
+    gap:15px;
+    margin: auto;
+    padding:10px 50px 10px 190px
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+#main1{
+    /* border:1px solid red; */
+  width:50%;
+    /* height:1500px; */
+    /* margin-left: 120%; */
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* padding:0px 0px 0px 70px */
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+   
+   
+}
+
+#main2{
+    /* border:1px solid green; */
+    width:50%;
+    margin-left: 20px;
+    /* height:1500px; */
+/* 
+    padding-left: 40px;
+    padding-right: 40px; */
+   
+    
+}
+#main2>div{
+    justify-content: center;
+/*     
+  padding-left: 40px;
+  padding-right: 40px; */
+}
+#one{
+    text-align: center;
+    margin-top: 30px;
+    /* border:1px solid green; */
+    
+}
+#one>p{
+    /* width:100%; */
+    font-size: 80%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#one>a img {
+  
+        border: 0;
+        max-width: 100%;
+        /* display: inline-block; */
+        max-height: 3.8571428571em;
+
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    font-family: Helvetica Neue, sans-serif;
+    color:gray;
+    margin-top: 5%;
+
+}
+input{
+     border-radius: 5.0px;
+     margin-top: 2%;
+     width: 99%;
+     height: 45px;
+     border: 1px solid gray;
+     font-size: 15px
+}
+
+::placeholder {
+    color: gray;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  input.larger {
+    width: 20px;
+    height: 18px;
+  }
+.check{
+    font-size: 112%;
+    font-family: Helvetica Neue, sans-serif;
+    color: gray;
+}
+#head2{
+    font-family: Helvetica Neue, sans-serif;
+    margin-top: 8%;
+}
+.country{
+    border-radius: 5.0px;
+   
+}
+#country{ 
+    margin-top:6%;
+}
+.options{
+    color: gray;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.country option.options{
+    color: gray;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#name{
+    display: flex;
+    gap:26%;
+    /* justify-content: space-evenly; */
+    margin-top: 5%;
+    /* border:1px solid blueviolet; */
+    
+}
+#state{
+    display: flex;
+    gap:10%;
+    /* justify-content: space-evenly; */
+    margin-top: 2%;
+    /* border:1px solid blueviolet; */
+    
+}
+#country1{ 
+    margin-top:4px;
+    margin-left: 15px;
+    
+
+}
+.country1{
+    border-radius: 5.0px;
+   
+}
+#button{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+button{
+    background-color: black;
+    color:white;
+    width:40%;
+    height: 70px;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#button h4{
+    color: black;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#line{
+    width:100%;
+    height:-1px ;
+    border: 1px solid rgb(202, 200, 200);
+    background-color: rgb(196, 190, 190);
+    margin-top: 35px;
+}
+
+#last{
+    display: flex;
+    gap:2%
+}
+#last p{
+    font-size: 95%;
+    color: rgb(147, 143, 143);
+    font-weight: bold;
+}
+#submain2{
+    /* border: 1px solid violet; */
+    width:60%;
+   /* text-align: center; */
+   /* justify-content: center; */
+   margin-left: 30px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#three{
+    display: flex;
+    margin-top: 20%;
+    justify-content: space-evenly;
+}
+#money{
+    margin-left: 5%;
+}
+#three>div>p{
+    /* border: 1px solid red; */
+   margin-left: 13%;
+}
+#smallimg{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+#smallimg>img{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* height:80% */
+    margin-top: 18%;
+   
+}
+#cupon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#bt{
+    /* margin-left: 130px; */
+    font-size: 150%;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+#total{
+    display: flex;
+    justify-content: space-between;
+}
+#total>div>h3{
+    font-size: 86%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+#paisa{
+margin-left: 80%;
+}
+#grandTotal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#grandTotal>div>h2{
+    font-weight:600 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+
+
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./payment.css">
+</head>
+<body>
+    <div id="main">
+                
+        <div id="main1">
+                <div id="eight">
+                    <div id="eight1">
+                        <img src="https://api.payu.in/public/assets/images/back.svg" alt="">
+                        <h3>Back</h3>
+                    </div >
+                
+                    <img id="logo" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAA0CAMAAABSMBZbAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCRjE1MjYwNEE2NTdFMzExQjkwRUZFNEJFOEU1RThDOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQ0I3MjA4NUYwODUxMUUzOUI1QzlGNEMyMTI1RkUzRCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQ0I3MjA4NEYwODUxMUUzOUI1QzlGNEMyMTI1RkUzRCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCNEYwM0FDNzg0RjBFMzExOTAxNUQ1QkUxMTdBNUU5NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCRjE1MjYwNEE2NTdFMzExQjkwRUZFNEJFOEU1RThDOSIvPiA8L3JkZjpEZXNjcmlwdGlv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" alt="">
+                </div>
+                <div id="nine">
+                    <h1>Choose a payment option</h1>
+                    <div id="nine1">
+                        <p>Total Payable Amount </p>
+                        <h3>₹599</h3>
+                    </div>
+                    
+                    <p>Transaction Id: 25865333080110</p>
+
+                 
+                </div>
+         
+        </div>
+
+
+        <div id="main2">
+            <div id="kaka">
+                <div id="h3"> 
+                    <h3>PAYMENT OPTIONS</h3>
+                </div>
+                 
+                 <!-- <select name="" id="selects"> 
+                    <option value="">Choose language </option>
+                    <option value="">Hindi </option>
+                    <option value="">English</option>
+                    <option value="">Spanish</option>
+                 </select> -->
+                 <div id="country">
+                            
+                    <select class="country" id="" style="width: 100%;height: 45px;">
+                        <option value="">Choose language </option>
+                        <option class="options" >English</option >
+                        <option class="options">Hindi</option>
+                        <option class="options">Bengali</option>
+                        <option class="options">Urdu</option>
+                        <option class="options">Malyame</option>
+                        <option class="options">Neplai</option>
+                        
+                    </select>
+                </div>
+               
+
+            </div>
+
+            <div id="ten1">
+                 <div id="logo1">
+                    <img src="https://api.payu.in/public/assets/images/card-icon.svg" alt="">
+                 </div>
+                  <div id="txt">
+                    <h3><a href="./card.html">Cards (Credit/Debit)</a></h3>
+                    <p><a href="./card.html">Pay using any credit or debit card</a></p>
+                    
+                </div>
+                 <div id="symbol">
+                   <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                 </div> 
+            </div>
+
+            <div id="ten">
+                <div id="logo1">
+                   <img src="https://api.payu.in/public/assets/images/cardless.svg" alt="">
+                </div>
+                 <div id="txt">
+                   <h3><a href="./card.html">EMI</a></h3>
+                   
+                   <p><a href="./card.html">Credit Card and Card EMI option</a></p>
+                   
+               </div>
+                <div id="symbol">
+                  <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                </div> 
+            </div>
+                               
+                            <div id="ten">
+                                <div id="logo1">
+                                <img src="https://api.payu.in/public/assets/images/wallet-icon.svg" alt="">
+                                </div>
+                                <div id="txt">
+                                    <h3><a href="./card.html">Net Banking</a></h3>
+                                    <p><a href="./card.html">Pay Using any of 45 banks Etc..</a></p>
+                                
+                                 </div>
+                                <div id="symbol">
+                                   <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                                </div> 
+                            </div>
+                            <div id="ten">
+                                <div id="logo1">
+                                <img src="https://api.payu.in/public/assets/images/wallet-icon.svg" alt="">
+                                </div>
+                                <div id="txt">
+                                <h3><a href="./card.html">Wallet</a></h3>
+                                <p><a href="./card.html">Amazon Pay,Google Pay,UPI....</a></p>
+                                
+                            </div>
+                                <div id="symbol">
+                                   <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                                </div> 
+                        </div>
+                        <div id="ten">
+                            <div id="logo1">
+                               <img src="https://api.payu.in/public/assets/images/upi-icon.svg" alt="">
+                            </div>
+                            <div id="txt">
+                                <h3><a href="./card.html">UPI</a></h3>
+                                <p><a href="./card.html">Pay with UPI app and Phonepe</a></p>
+                            
+                            </div>
+                            <div id="symbol">
+                                 <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                            </div> 
+                        </div>
+
+
+                        <div id="ten">
+                            <div id="logo1">
+                               <img src="https://api.payu.in/public/assets/images/bnpl.svg" alt="">
+                            </div>
+                            <div id="txt">
+                                <h3><a href="./card.html">Pay Later</a></h3>
+                                <p><a href="./card.html">ICICI Bank PayLater Or LazyPay</a></p>
+                            
+                            </div>
+                            <div id="symbol">
+                                 <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                            </div> 
+                        </div>
+
+                        <div id="ten" >
+                            <div id="logo1">
+                               <img src="https://api.payu.in/public/assets/images/bharatqr.svg" alt="">
+                            </div>
+                            <div id="txt">
+                                <h3><a href="./card.html">Scan And Pay</a></h3>
+                                <p><a href="./card.html">Scan QR code pay with Phonepe</a></p>
+                            
+                            </div>
+                            <div id="symbol">
+                                 <img src="https://api.payu.in/public/assets/images/accordian-arrw.svg" alt="">
+                            </div> 
+                        </div>
+
+                           
+  
+  
+  
+  
+
+                    
+
+         </div>
+    </div>
+    <div id="main3">
+        <div id="mama">
+<img id="payU" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/PayU_India_Logo.svg/1280px-PayU_India_Logo.svg.png" alt="">
+<p>Privacy Policy</p>
+        </div>
+        <div>
+<img id="paymt"src="https://t4.ftcdn.net/jpg/04/35/48/37/360_F_435483726_1siFBouFzSyWeLJFLTn1Y1cCRZITJcCA.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
