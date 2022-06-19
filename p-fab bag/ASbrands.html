@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fab-Bag</title>
+    <style>
+ 
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/30402dddde.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/fotter.css">
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="/styles/about.css">
+</head>
+<style>
+    #asbrand_append{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+
+        gap: 20px;
+        margin-left: 20px;
+    }
+    #asbrand_append>div{
+    border: 2px double #e5b95f;
+ 
+    height: 124px;
+    width: 145px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    }
+    #asbrand_append>div>img{
+        width: 91px;
+
+    }
+  
+
+</style>
+<body>
+  <div id="navbar">
+   
+    
+     </div>
+   
+  <br>
+ 
+  <div id="about">
+    <h2>ASSOCIATED BRANDS</h2>
+   <div id="asbrand_append"></div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div id="fotter"></div>
+  
+    
+</body>
+</html>
+<script src="https://kit.fontawesome.com/30402dddde.js" crossorigin="anonymous"></script>
+<script   type="module" src="./scripts/index.js" ></script>
+<script>
+
+    let container= document.querySelector("#asbrand_append")
+
+    let arr=[ "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/APS_LOGO_NEW_compact.png?v=1548834005",
+
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Why_Wait_Rectangle_Logo_compact.png?v=1548837051",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/SFR-Logo_compact.png?v=1548836963",
+            
+               "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_compact.jpg?v=1548837170",
+               "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Vivel.jpg?v=1558006265",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ZIRH.jpg?v=1558006318",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ZA.jpg?v=1558006308",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/yuana.jpg?v=1558006301",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/wild_earth.png?v=1558006294",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/wella-logo.jpg?v=1558006282",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/votre.jpg?v=1558006273",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Victoria.jpg?v=1558006259",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/vichy.jpg?v=1558006254",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/VERT.jpg?v=1558006248",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/veet-logo-WB_480x480.jpg?v=1558006241",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Vedantika.jpg?v=1558006233",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/vedaearth-logo-final.jpg?v=1558006227",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/varaaaaaaa.jpg?v=1558006218",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/vantiv-logo.jpg?v=1558006212",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Vana.jpg?v=1558006206",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Untitled-2.jpg?v=1558006169",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/tvam.jpg?v=1558006152",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tvakh-logo-wb-2.png?v=1558006144",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/tttv.png?v=1558006139",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Toni.jpg?v=1558006131",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/tommy.jpg?v=1558006123",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tijori-Logo.jpg?v=1558006115",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/The-Herbel-Blend-Logo.jpg?v=1558006110",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/theBlam.jpg?v=1558006091",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/the_Soap_Company.jpg?v=1558006085",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/THC.jpg?v=1558006079",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Thalgo.jpg?v=1558006070",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/TBS.jpg?v=1558006062",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/suganda.png?v=1558006036",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/splurge.jpg?v=1558002764",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sk2.jpg?v=1558002732",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Sisley.jpg?v=1558002725",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Shiseido.jpg?v=1558002717",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Seer_Secrets_WB_Logo.jpg?v=1558002710",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/seasoul.png?v=1558002630",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/SandLogo.jpg?v=1558002618",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Sally-Hansen.jpg?v=1558002605",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/rusk.jpg?v=1558002591",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ROC.png?v=1558002564",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Remy-Laure.jpg?v=1558002441",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Redken.jpg?v=1558002412",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Purple-Logo.jpg?v=1558002394",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Purple-Logo.jpg?v=1558002394",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Portico-Spa.jpg?v=1558002381",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Philosophy.jpg?v=1558002350",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Perry-Ellis.jpg?v=1558002333",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/PEP_LOGO.jpg?v=1558002311",
+
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/parachute.jpg?v=1558002282",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo.jpg?v=1558002270",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo.jpg?v=1558002270",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Purely-Pro.jpg?v=1558002246",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Palladio.jpg?v=1558002206",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/nykaa.png?v=1558001947",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/MY-Glamm.jpg?v=1558001773",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Mont-Blanc.jpg?v=1558001660",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/meiji.jpg?v=1558001623",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Mary-Kay.jpg?v=1558001590",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/lush.jpg?v=1558001507",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Main_Logo2.jpg?v=1558001526",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/mondsub-logo-wb.jpg?v=1558001635",
+              "https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Lord.jpg?v=1558001489",
+              
+
+
+
+              ]
+         
+
+            append(arr)
+
+     function append(arr) {
+      
+        arr.forEach((el)=>{
+
+         let box = document.createElement('div');
+         box.setAttribute('id','imbox')
+         let img = document.createElement('img')
+         img.src=el;
+
+         box.append(img);
+
+         container.append(box)
+
+
+
+
+
+
+        })
+
+
+
+
+     }       
+
+
+
+
+
+</script>
+

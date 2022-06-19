@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#fotter{
+    width: 100%;
+ 
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    height: 700px;
+}
+#ftcan1{
+    display: flex;
+   justify-content: space-around;
+
+}
+#ft1 p ,#ft3 p{
+   padding: 7px;
+   color: #7d7d7d;
+   font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+
+}
+#ft1 h3,#ft2 h3,#ft3 h3{
+    color: #222222;
+    padding: 7px 7px 12px 7px;
+    font-size: 20px;
+
+}
+#ftcan1{
+    display: flex;
+}
+#ft1,#ft2,#ft3{
+    margin-top: 50px;
+}
+#ft1{
+   margin-left: 100px;
+}
+#ft3{
+    margin-right: 100px;
+}
+p span{
+font-size: 12px;
+
+}
+
+#inp{
+   display: flex;
+   gap: 20px;
+}
+#inp button {
+    padding: 10px 12px 10px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e5b95f;
+    color: azure;
+}
+#inp input{
+    padding: 12px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 5px;
+    width: 200px;
+    /* border: 0.5px solid blanchedalmond; */
+
+}
+#inp input:hover{
+    border: 1px solid  #e5b95f;
+}
+#inp button:hover{
+    background-color:black;
+    color: azure;
+}
+#ft-social{
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+
+}
+#soc{
+    height: 40px;
+    width: 40px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 228, 225, 0.715);
+}
+#soc i{
+    color: gray;
+    
+}
+#soc:hover{
+  background-color: #1877f2;
+  color: azure;
+ 
+}
+#soc i:hover{
+    color: azure;
+}
+
+ #la{
+    text-align: center;
+    margin-top: 20px;
+    color: #7d7d7d;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+
+    
+ }
+ #ft1 a{
+    text-decoration: none;
+    color: #7d7d7d;
+ }
+ #ft1 a:hover{
+    color:  #e5b95f;
+ }
+
+
