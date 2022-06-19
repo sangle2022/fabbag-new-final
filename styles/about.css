@@ -1,0 +1,28 @@
+#about h2{
+    text-align: center !important;
+    font-weight: bold;
+    padding-top: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px double #e5b95f;
+    padding-bottom: 15px;
+    margin-bottom: 31px;
+    font-style: italic;
+    font-size: 20px;
+
+}
+#about{
+    width: 80%;
+    margin: auto;
+}
+#about p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+   text-align: justify;
+   font-weight: bold;
+   line-height: 25px;
+
+}
+
+
+
+
