@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="common.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30402dddde.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,200;1,300;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fotter.css">
+<link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <div id="navbar">
+   
+    </div>
+    <div id="container3">
+        <div id="bar">
+            <p>Create An Account</p>
+        </div>
+        <div id="back">
+
+            <div id="blue">
+                <p>
+                    Sign in with Facebook
+                </p>
+                <a href="https://www.facebook.com/login"><i id="icon" class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+        <div id="back1">
+            <div id="red">
+
+                <p>
+                    Sign in with Google
+                </p>
+                <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i id="icon" class="fa-brands fa-google"></i></a>
+
+
+
+            </div>
+        </div>
+        <div class="form3">
+            <form>
+                <p>First Name<span class="s">*</span></p>
+                <input id="fname" type="text" placeholder="" />
+                <p>Last Name<span class="s">*</span></p>
+                <input id="lname" type="text" placeholder="" />
+                <p>Your Email Address<span class="s">*</span></p>
+                <input id="email" type="text" placeholder="" />
+                <p>Your password<span class="s">*</span></p>
+                <input id="password" type="password" placeholder="" />
+
+
+
+
+<p class="new1" onclick="signup()">Create An Account</p><br>
+
+                <!-- <input class="new1" type="submit" value="Create An Account" /> -->
+                <h3 id="OR"><span id="or">Or</span></h3>
+                <input id="new" type="submit" value="Sign in" />
+            </form>
+        </div>
+    </div>
+
+    <div id="fotter"></div>
+</body>
+
+</html>
+
+
+    
+  
+
+<script type="module">
+    import {header,fotter} from './components/navbar.js'
+document.getElementById('navbar').innerHTML=header();
+document.getElementById('fotter').innerHTML=fotter();
+
+
+    var form = document.querySelector("form");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        var data = {
+            fname:form.fname.value,
+            lname:form.lname.value,
+            email: form.email.value,
+            password: form.password.value,
+        };
+
+        localStorage.setItem("signupData", JSON.stringify(data));
+        alert("Sign up successful");
+       window.location.href = "signin.html";
+    });
+    // function signup(){
+    //     window.location.href="signup.html"
+    //}
+</script>
+
