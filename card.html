@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            background-color: aliceblue;
+        }
+        h1{
+           text-align: center;
+           margin-top:30px;
+           margin-bottom:10px;
+           font-size: 25px;
+        }
+        #form{
+            width:30%;
+            height:230px;
+            margin:auto;
+            background-color: aquamarine;
+        }
+     
+       #name{
+           margin-top:20px;
+           margin-left:33px;
+           width:60%;
+           height: 20px;
+           border:1px solid grey;
+       }
+       #cvv{
+           margin-top:20px;
+           width:20%;
+           height:20px;
+           border:1px solid grey;
+       }
+       #card{
+           margin-top:15px;
+           margin-left:33px;
+           width:82%;
+           height:20px;
+           border:1px solid grey;
+       }
+       #month{
+           margin-top:15px;
+           border:1px solid grey;
+           margin-left:33px;
+           height:20px;
+       }
+       #submit{
+           color:rgb(15, 28, 216);
+           background-color: bisque;
+            width:100px;
+            height:25px;
+            margin-top:20px;
+            margin-left:147px;
+       }
+       #submit:hover{
+           background-color: rgb(233, 13, 13);
+           color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h1>Confirm Your Payment</h1>
+        <input id="name" type="text" placeholder="Enter Your Name">
+        <input id="cvv" type="number" placeholder="CVV"> <br>
+        <input id="card" type="number" placeholder="Card Number"> <br>
+        <select  id="month">
+            <option value="jan">Jan</option>
+            <option value="">Feb</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">Jun</option>
+            <option value="">Julai</option>
+            <option value="">Agust</option>
+            <option value="">Sept</option>
+            <option value="">Oct</option>
+            <option value="">Nov</option>
+            <option value="">Dec</option>
+        </select>
+        <select name="" id="year">
+            <option value="">2024</option>
+            <option value="">2025</option>
+            <option value="">2026</option>
+            <option value="">2027</option>
+            <option value="">2028</option>
+            <option value="">2029</option>
+            <option value="">2030</option>
+            <option value="">2031</option>
+            <option value="">2032</option>
+        </select><br>
+        <input id="submit" type="submit">
+     
+       
+        
+    
+    </form>
+</body>
+</html>
+<script>
+    document.querySelector("#form").addEventListener("submit",myFunction)
+   
+   function myFunction(){
+       var name=document.querySelector("#name").value;
+       window.location.href="otp.html"
+       alert("OTP sended sucessfully")
+      
+
+    
+    
+   }
+ 
+
+   
+    
+</script>

@@ -1,0 +1,374 @@
+#main{
+    width: 90%;
+    /* border:1px solid blueviolet; */
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    padding:0px 0px 0px 50px
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+#main1{
+    /* border:1px solid red; */
+  width:50%;
+    height:1500px;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+   
+   
+}
+
+#main2{
+    /* border:1px solid green; */
+    width:50%;
+    height:1500px;
+    margin-left: 20px;
+   
+    
+}
+#main2>div{
+    justify-content: center;
+}
+#one{
+    text-align: center;
+    margin-top: 40px;
+    /* border:1px solid green; */
+    
+}
+#one>p{
+    /* width:100%; */
+    font-size: 80%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#one>img{
+  
+        border: 0;
+        max-width: 100%;
+        /* display: inline-block; */
+        max-height: 3.8571428571em;
+
+}
+#four{
+    margin-top: 7%;
+    color:gray;
+    border:0.2px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#four1{
+    /* border:1px solid gray; */
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: space-between;
+}
+#four2{
+    /* border:1px solid gray; */
+
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: space-between;
+}
+#four1 div{
+    font-size: 100%;
+    color:gray;
+    /* border:1px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.bhai{
+    margin-right: 15%;
+    cursor: pointer;
+}
+#four2 div{
+    font-size: 100%;
+    color:gray;
+    /* border:1px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+#four1>div{
+   
+    overflow: scroll;
+    overflow: hidden;
+    cursor: pointer;
+}
+.bhai{
+  
+    padding: 15px;
+    width: 45%;
+    height: 45px;
+    overflow: scroll;
+    overflow: hidden;
+    border: 0.2px solid #ccc;
+    cursor: pointer;
+}
+.bhen{
+    margin-left: -14.1%;
+    padding: 15px;
+    width: 45%;
+    height: 45px;
+    overflow: scroll;
+    overflow: hidden;
+    border: 0.2px solid #ccc;
+    cursor: pointer;
+}
+#line{
+    width:100%;
+    /* height:-1px ; */
+    border: 0.1px solid rgb(202, 200, 200);
+    background-color: rgb(196, 190, 190);
+    /* margin-top: 35px; */
+}
+#four3{
+    /* border:1px solid gray; */
+
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: space-between;
+}
+#four3 div{
+    font-size: 100%;
+    color:gray;
+    /* border:1px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+#head{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    font-family: Helvetica Neue, sans-serif;
+    color:black;
+    margin-top: 10%;
+    font-size: 175%;
+}
+#head>p{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    font-family: Helvetica Neue, sans-serif;
+    color:black;
+    margin-top: -5%;
+    font-size: 60%;
+}
+#six{
+    margin-top: 10%;
+}
+#six1{
+    display:flex;
+       justify-content: space-between;
+       border: 0.1px solid rgb(202, 200, 200);
+}
+#six1>label{
+    margin-right: 15%;
+}
+
+
+#six1>img{
+    width:30%;
+    height:70%
+
+}
+input.larger {
+    width: 30px;
+    height: 28px;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+.check{
+    font-size: 112%;
+    font-family: Helvetica Neue, sans-serif;
+    color: rgb(59, 57, 57);
+    border-radius: 20px;
+    margin-top: 25px;
+}
+#six2{
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+    padding:0px 40px 0px 40px ;
+    font-size: 90%;
+    color:rgb(40, 39, 39);
+    /* font-weight: 200; */
+    border: 0.1px solid rgb(202, 200, 200);
+}
+#six3{
+    display: flex;
+    justify-content: space-between;
+    border: 0.1px solid rgb(202, 200, 200);
+}
+input.larger1 {
+    width: 30px;
+    height: 28px;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+#six3>#pay{
+    width:40%;
+    height:-10%
+
+}
+#six3>#paytm{
+    width:20%;
+    height:10%;
+    margin-left: -33%;
+    margin-top: 20px;
+
+}
+#six{
+    border: 0.1px solid rgb(202, 200, 200);
+}
+input.larger2 {
+    width: 30px;
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+
+
+
+.check1{
+    font-size: 132%;
+    font-family: Helvetica Neue, sans-serif;
+    color: rgb(59, 57, 57);
+    border-radius: 20px;
+    margin-top: -15px;
+}
+#button{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+button{
+    background-color: black;
+    color:white;
+    width:40%;
+    height: 70px;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#button h4{
+    color: black;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#submain2{
+    /* border: 1px solid violet; */
+    width:60%;
+   /* text-align: center; */
+   /* justify-content: center; */
+   margin-left: 30px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#three{
+    display: flex;
+    margin-top: 20%;
+    justify-content: space-evenly;
+}
+#money{
+    margin-left: 5%;
+}
+#three>div>p{
+    /* border: 1px solid red; */
+   margin-left: 13%;
+}
+#smallimg{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+#smallimg>img{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* height:80% */
+    margin-top: 18%;
+   
+}
+#cupon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#bt{
+    /* margin-left: 130px; */
+    font-size: 150%;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+#total{
+    display: flex;
+    justify-content: space-between;
+}
+#total>div>h3{
+    font-size: 86%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+#paisa{
+margin-left: 80%;
+}
+#grandTotal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#grandTotal>div>h2{
+    font-weight:600 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+a{
+    color: white;
+}
